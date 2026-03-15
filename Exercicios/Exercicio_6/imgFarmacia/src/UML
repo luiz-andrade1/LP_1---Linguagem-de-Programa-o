@@ -1,0 +1,37 @@
+FARMACIA
+1. Remedio
+2. Cosmetico
+3. Alimento
+
+1. REMEDIO
+atributos:
+-posologia
+-quantidade
+-efeitoColateral
+
+metodos:
+-dizer se dissolve ou nao
+-dizer se acabou ou nao
+-descrever efeito colateral
+
+2. COSMETICO
+atributos:
+-aplicacao
+-quantidade
+-dosagem
+
+metodos:
+-descrever forma de aplicacao
+-dizer se acabou ou nao
+-indicar dosagem apropriada
+
+3. ALIMENTO
+atributos:
+-sabor(doce, salgado, azedo, amargo, agridoce)
+-tipo(solido, liquido, pastoso)
+-quantidade
+
+metodos:
+-dizer qual é o sabor
+-dizer que tipo de alimento é
+-dizer se acabou ou nao

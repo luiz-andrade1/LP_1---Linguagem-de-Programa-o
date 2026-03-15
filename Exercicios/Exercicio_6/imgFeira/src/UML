@@ -1,0 +1,37 @@
+FEIRA
+1. Fruta
+2. Legume
+3. Verdura
+
+1. FRUTA
+atributos:
+-tamanho
+-cor
+-origem
+
+metodos:
+-dizer o tamanho
+-dizer a cor
+-mostrar origem
+
+2. LEGUME
+atributos:
+-tamanho
+-cor
+-origem
+
+metodos:
+-dizer o tamanho
+-dizer a cor
+-mostrar origem
+
+3. VERDURA
+atributos:
+-intensidade do verde
+-tamanho da folha
+-tipo de consumo
+
+metodos:
+-dizer intensidade verde
+-dizer tamanho da folha
+-dizer se é cozinho ou cru

@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class NotaFinal {
 
-    public void main(){
+    public void main() {
 
         CalcMedia notas = new CalcMedia();
         Scanner ler = new Scanner(System.in);
@@ -28,21 +28,20 @@ public class NotaFinal {
         IO.println("Agora digite a nota da API:");
         notas.setApi(ler.nextDouble());
 
-        if(notas.calcNota()>5.9){
-            IO.println("Aprovado");}
-        else
-        {IO.println("Reprovado por nota regular.\nDigitar nota do exame:");
+        if (notas.calcNota() > 5.9) {
+            IO.println("Aprovado");
+        } else {
+            IO.println("Reprovado por nota regular.\nDigitar nota do exame:");
             notas.setExame(ler.nextDouble());
-            if (notas.calcNota()<5.9){
-                IO.println("Reprovado");}
-            else {IO.println("Aprovado");
+            if (notas.calcNota() < 5.9) {
+                IO.println("Reprovado");
+            } else {
+                IO.println("Aprovado");
                 IO.println("E a nota foi:");
                 IO.println(notas.calcNota());
             }
         }
 
 
-
     }
-
 }
