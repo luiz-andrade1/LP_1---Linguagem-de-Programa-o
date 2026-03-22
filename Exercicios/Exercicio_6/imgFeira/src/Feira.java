@@ -65,6 +65,6 @@ public class Feira {
                     System.out.println("Processo finalizado.");
                 }
             }
-        } while (opcao <4);
+        } while (opcao >1);
     }
 }

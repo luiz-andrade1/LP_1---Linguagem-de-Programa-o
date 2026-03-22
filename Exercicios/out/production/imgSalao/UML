@@ -1,0 +1,37 @@
+SALAO
+1. Funcionario
+2. Cliente
+3. Serviços
+
+1. Funcionário
+atributios:
+-nome
+-função
+-tempo de casa
+
+métodos:
+-dizer os nomes
+-dizer as funções
+-dizer quanto tempo de casa tem
+
+2. Cliente
+atributos:
+-nome
+-idade
+-gênero
+
+métodos:
+-dizer nome
+-dizer idade
+-dizer gênero
+
+3. Serviços
+atributos:
+-nome
+-tempo
+-valor
+
+métodos:
+-dizer nome
+-dizer tempo
+-dizer valor
