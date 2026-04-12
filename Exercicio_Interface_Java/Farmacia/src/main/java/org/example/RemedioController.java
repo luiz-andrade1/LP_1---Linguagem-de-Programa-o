@@ -8,15 +8,12 @@ import javafx.scene.control.TextField;
 
 import java.io.IOException;
 
-public class CosmeticoController {
+public class RemedioController {
 
-    Cosmetico cosmetico;
+    Remedio remedio;
 
     @FXML
     private Button btCadastro;
-
-    @FXML
-    private Button btVoltar;
 
     @FXML
     private Button btPeso;
@@ -26,6 +23,9 @@ public class CosmeticoController {
 
     @FXML
     private Button btVencimento;
+
+    @FXML
+    private Button btVoltar;
 
     @FXML
     private Label lbTexto;
@@ -40,8 +40,8 @@ public class CosmeticoController {
     private TextField txtValor;
 
     @FXML
-    void cadCosmetico(ActionEvent event) {
-        cosmetico = new Cosmetico (txtNome.getText(), Integer.parseInt(txtPeso.getText()), Double.parseDouble(txtValor.getText()));
+    void cadRemedio(ActionEvent event) {
+        remedio = new Remedio (txtNome.getText(), Integer.parseInt(txtPeso.getText()), Double.parseDouble(txtValor.getText()));
         txtNome.clear();
         txtPeso.clear();
         txtValor.clear();
@@ -49,21 +49,20 @@ public class CosmeticoController {
 
     @FXML
     void mostrarPeso(ActionEvent event) {
-        lbTexto.setText(cosmetico.mostrarPeso());
+        lbTexto.setText(remedio.mostrarPeso());
     }
 
     @FXML
     void mostrarValor(ActionEvent event) {
-        lbTexto.setText(cosmetico.mostrarValor());
+        lbTexto.setText(remedio.mostrarValor());
     }
 
     @FXML
     void mostrarVenceu(ActionEvent event) {
-        lbTexto.setText(cosmetico.mostrarVenceu());
+        lbTexto.setText(remedio.mostrarVenceu());
     }
+
     @FXML
     private void switchToFarmacia() throws IOException {
         App.setRoot("farmacia");}
-
-
 }

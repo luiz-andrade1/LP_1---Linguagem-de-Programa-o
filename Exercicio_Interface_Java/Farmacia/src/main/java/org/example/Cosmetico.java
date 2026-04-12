@@ -33,6 +33,8 @@ public class Cosmetico {
         return (getNome()+" passou da data de validade");
     }
 
-    public String
+    public String mostrarPeso(){ return (getNome()+" pesa "+String.valueOf(getPeso())+"g");}
+
+    public String mostrarValor(){return  (getNome()+" custa "+String.valueOf(getValor())+" reais");}
 
 }

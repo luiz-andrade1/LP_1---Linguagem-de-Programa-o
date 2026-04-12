@@ -7,12 +7,17 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
+import java.io.IOException;
+
 public class AlimentoController {
 
     Alimento alimento;
 
     @FXML
     private Button btCadastro;
+
+    @FXML
+    private Button btVoltar;
 
     @FXML
     private Button btPeso;
@@ -53,6 +58,10 @@ public class AlimentoController {
     void mostrarVenceu(ActionEvent event) {
         lbTexto.setText(alimento.mostrarVenceu());
     }
+
+    @FXML
+    private void switchToFarmacia() throws IOException {
+        App.setRoot("farmacia");}
 
 
 }
