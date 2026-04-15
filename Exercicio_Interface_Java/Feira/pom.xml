@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
-    <artifactId>Farmacia</artifactId>
+    <artifactId>Feira</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,8 +34,6 @@
                 <version>3.8.0</version>
                 <configuration>
                     <release>11</release>
-                    <source>11</source>
-                    <target>11</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -48,7 +46,7 @@
                         <!-- Usage: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>farmacia.App</mainClass>
+                            <mainClass>org.feira.App</mainClass>
                         </configuration>
                     </execution>
                 </executions>

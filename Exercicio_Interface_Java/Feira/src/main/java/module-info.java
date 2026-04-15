@@ -1,8 +1,8 @@
-module Farmacia {
+module org.salao {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
 
-    exports farmacia;
-    opens farmacia to javafx.fxml;
+    opens org.feira to javafx.fxml;
+    exports org.feira;
 }
